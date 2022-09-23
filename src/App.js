@@ -24,7 +24,7 @@ function App() {
       setLoading(false);
     }, 1000);
   }, [query]);
-
+  console.log(query);
   return (
     <div>
       <h1>Search Countries</h1>
